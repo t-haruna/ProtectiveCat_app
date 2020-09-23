@@ -1,0 +1,104 @@
+.Header
+  .Header__user
+    = link_to "新規登録","#/", class: "Header__user__new btn" 
+    = link_to "ログイン","#/", class: "Header__user__login btn" 
+    //= link_to "プロジェクトを投稿する","#/", class: "Header__user__project btn" 
+    //= link_to "パトロンシステムに参加する","#/", class: "Header__user__patorn btn" 
+
+.Phot
+  .phot__image    
+    //= image_tag '/koneko2.jpeg',class: "phot__image--background"
+    //= image_tag '/koharubiyori26ver2.jpg',class: "phot__image--background"
+    = image_tag '/下町ネコ.jpg',class: "phot__image--background"
+  .expect
+    .expect__contents
+      %h2.expect__title ネコと人が共存できる世界のために
+      %p.expect__body 多くの保護団体や個人のボランティアの方々は支援者の援助や自身の貯金を切り崩して活動を行っています。
+      %p.expect__body そのような中、新型コロナウイルスによる影響により
+      %p.expect__body 保護ネコカフェの経営困難、譲渡会の中止など
+      %p.expect__body 活動の継続が難しく、また運営資金の調達も今まで厳しい状況となっています。
+    .expect__ask
+      %p 小さな命を救うために
+      %P 今私たちができることを
+      %p 改めて考えてみませんか？
+
+.Tag
+  .Tag__left
+    = link_to "Crowd Funding","#", class: "tag" 
+  .Tag__right
+    = link_to "Patron","#", class: "tag" 
+  
+.Body
+  .Select
+    = link_to "クラウドファンディングをはじめる","#", class: "Select__start select"
+    = link_to "検索する","#", class: "Select__search select"
+  .Contents
+    .Contents__expect 
+      %h1.Contents__expect__title クラウドファンディングとは
+      %p クラウドファンディングとはインターネットを通して自分の活動を発信することで
+      %p その活動を応援したいと思ってくれる人から資金を募るシステムのことです。
+      %p 病気の保護ネコを治療したい、保護シェルターを建設したい・・
+      %p 保護ネコを救うための多くのプロジェクトを
+      %p 支援という形でともに実現して行きませんか？
+
+    .Contents__projects
+      .Projects
+        .Box1
+          = image_tag '/野良猫イメージ.jpg',class: "Box1__image"
+        .Box2
+          .Box2__title
+            %p.Box2__title__contents 病気のネコを救いたい！！
+          .Box2__percent
+            %p.Box2__percent__contents 進捗率
+            %p.Box2__percent__contents 50%
+        .Details
+          .Details__total.detail
+            %p 支援総額 
+            %p ¥100,000
+          .Details__suppoter.detail
+            %p 支援者
+            %p 3名
+          .Details__term.detail
+            %p 募集期間
+            %p 2020年11月10日まで
+
+      .Projects
+        .Box1
+          = image_tag '/野良猫イメージ.jpg',class: "Box1__image"
+        .Box2
+          .Box2__title
+            %p.Box2__title__contents 病気のネコを救いたい！！
+          .Box2__percent
+            %p.Box2__percent__contents 進捗率
+            %p.Box2__percent__contents 50%
+        .Details
+          .Details__total.detail
+            %p 支援総額 
+            %p ¥100,000
+          .Details__suppoter.detail
+            %p 支援者
+            %p 3名
+          .Details__term.detail
+            %p 募集期間
+            %p 2020年11月10日まで
+
+      .Projects
+        .Box1
+          = image_tag '/野良猫イメージ.jpg',class: "Box1__image"
+        .Box2
+          .Box2__title
+            %p.Box2__title__contents 病気のネコを救いたい！！
+          .Box2__percent
+            %p.Box2__percent__contents 進捗率
+            %p.Box2__percent__contents 50%
+        .Details
+          .Details__total.detail
+            %p 支援総額 
+            %p ¥100,000
+          .Details__suppoter.detail
+            %p 支援者
+            %p 3名
+          .Details__term.detail
+            %p 募集期間
+            %p 2020年11月10日まで
+    
